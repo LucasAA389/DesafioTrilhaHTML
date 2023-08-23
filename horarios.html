@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesafioDio</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        body {
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: aquamarine;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            background-color: rgb(255, 255, 255);
+            padding: 10px 20px 0px;
+        }
+        .header {
+            background-color: rgb(9, 241, 249);
+            min-height: 150px;
+        }
+        .content {
+            background: linear-gradient(rgb(1, 22, 155), rgb(99, 56, 240));
+            min-height: 300px;
+            padding: 20px;
+        }
+        .footer {
+            background: linear-gradient(rgb(99, 56, 240), red);
+            min-height: 150px;
+        }
+        p{
+            font-size: 30px;
+        }
+        table tr:nth-child(even){
+            background-color: rgba(128, 128, 128, 0.455);
+        }
+        table tr:hover td{
+            background-color: gray;
+        }
+        thead{
+            background-color:rgb(70, 70, 70);
+            font-size: 25px;
+        }
+        tbody{
+            font-size: 20px;
+            background-color: white;
+        } 
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página principal</a></li><br>
+                <li><a href="sobreClinica.html">Sobre a clínica</a></li><br>
+                <li><a href="horarios.html">Horário de atendimento</a></li><br>
+                <li><a href="contato.html">Contato</a></li><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://media.proprofs.com/images/discuss/user_images/153336/3805962306.jpg " height="350" width="1000">
+                <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="content">
+                <h1 style="font-size: 45px;">Horários</h1><br>
+                <p>Esses são nossos horários juntamente com nossos preços por consultas, variando com o tipo de especialista selecionado e o convênio.</p>
+                <table border="1" align="center" width="800">
+                    <thead>
+                        <tr>
+                            <th>Especialista</th>
+                            <th>Segunda a sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriados</th>
+                            <th>Conv. Público</th>
+                           <th>Particular</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Clínico Geral</td>
+                            <td>10h - 18h</td>
+                            <td>10h - 14h</td>
+                            <td>14h - 18h</td>
+                            <td>--</td>
+                            <td>35R$</td>
+                        </tr>
+                        <tr>
+                            <td>Cardiologista</td>
+                            <td>12h - 20h</td>
+                            <td>12h - 18h</td>
+                            <td>11h - 16h</td>
+                            <td>20R$</td>
+                            <td>45R$</td>
+                        </tr>
+                        <tr>
+                            <td>Dermatologista</td>
+                            <td>11h - 18h</td>
+                            <td>--</td>
+                            <td>10h - 16h</td>
+                            <td>10R$</td>
+                            <td>25R$</td>
+                        </tr>
+                        <tr>
+                            <td>Ortopedista</td>
+                            <td>10h - 17h</td>
+                            <td>13h - 17h</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>30R$</td>
+                        </tr>
+                        <tr>
+                            <td>Psiquiatra</td>
+                            <td>12h - 17h</td>
+                            <td>--</td>
+                            <td>12h - 16h30</td>
+                            <td>20R$</td>
+                            <td>55R$</td>
+                        </tr>
+                        <tr>
+                            <td>Psicólogo</td>
+                            <td>13h - 18h</td>
+                            <td>--</td>
+                            <td>13h - 16h</td>
+                            <td>45R$</td>
+                            <td>65R$</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Caso precise de mais informações ou queira deixar suas dúvivas, por favor ir para o link "Contato"</p>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+
+            <div class="footer">
+                <ul>
+                    <li>Whatszapp: 98444-4444</li><br>
+                    <li>Telefone: 3844-4444</li><br>    
+                    <li>e-mail: minhaclinica@gmail.com</li><br>
+                </ul>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>

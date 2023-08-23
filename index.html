@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DesafioDio</title>
+    <style>
+        body {
+            margin: 0;
+        }
+        body {
+            background-color: #000000;
+            display: flex;
+            justify-content: center;
+        }
+        
+        .wrapper {
+            width: 1200px;
+            display: flex;
+            margin: 0 auto;
+            background-color: aquamarine;
+        }
+        .main {
+            display: flex;
+            flex-flow: column;
+            width: 85%;
+        }
+        .menu {
+            width: 15%;
+            background-color: rgb(255, 255, 255);
+            padding: 10px 20px 0px;
+        }
+        .header {
+            background-color: linear-gradient(240deg, rgb(10, 215, 167), white);
+            min-height: 150px;
+        }
+        .content {
+            background: linear-gradient(rgb(1, 22, 155), rgb(99, 56, 240));
+            min-height: 300px;
+            padding: 20px;
+        }
+        .footer {
+            background: linear-gradient(rgb(99, 56, 240), red);
+            min-height: 150px;
+        }
+        p{
+            font-size: 30px;
+        }
+        table tr:nth-child(even){
+            background-color: rgba(128, 128, 128, 0.455);
+        }
+        table tr:hover td{
+            background-color: gray;
+        }
+        thead{
+            background-color:rgb(70, 70, 70);
+            font-size: 25px;
+        }
+        tbody{
+            font-size: 20px;
+            background-color: white;
+        } 
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            <!-- Aqui vai o seu menu -->
+            <ul>
+                <li><a href="index.html">Página principal</a></li><br>
+                <li><a href="sobreClinica.html">Sobre a clínica</a></li><br>
+                <li><a href="horarios.html">Horário de atendimento</a></li><br>
+                <li><a href="contato.html">Contato</a></li><br>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="header">
+                <img src="https://th.bing.com/th/id/R.8e5b05ffd3dbc9d0f02c44d9f27140cc?rik=yA2AvA2UpvQM8w&riu=http%3a%2f%2fcdiumuarama.com.br%2fimg%2fsite%2flogo.png&ehk=72l1PtuceCS8TklfiPvuFgDKS8xWEdR3j8l27Mj2vjI%3d&risl=&pid=ImgRaw&r=0" width="500">
+                <!-- Aqui vai o seu header -->
+            </div>
+
+            <div class="content">
+                <h1 style="font-size: 35px;">Missão</h1>
+                <p>Cuidar da saúde através de um atendimento completo, acessível, humanizado, com confiança e acolhimento sem distinção.</p>
+                <iframe width="800" height="315" src="https://www.youtube.com/embed/LRwfIa1YjZM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <p>Nossa clínica é especializada e capacitada para ajudar nossos clientes, sempre estamos preparados para ajudar-los em qualquer situação.</p>
+                <p>Apesar das críticas, nossos especialistas se esforçam ao mámixo para melhorar e utilizam das críticas para melhorar pontos fracos.</p>
+                <!-- Aqui vai o seu conteúdo -->
+            </div>
+
+            <div class="footer">
+                <ul>
+                    <li>Whatszapp: 98444-4444</li><br>
+                    <li>Telefone: 3844-4444</li><br>    
+                    <li>e-mail: minhaclinica@gmail.com</li><br>
+                </ul>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+        </div>
+    </div>
+</body>
+</html>
